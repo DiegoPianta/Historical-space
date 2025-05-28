@@ -1,0 +1,86 @@
+/* Stili generali della pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a2a;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Menu */
+header {
+    background-color: #1a1a4a;
+    padding: 15px 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-size: 22px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    color: #ffffff;
+}
+
+/* Sezioni informative */
+.info-block {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #1a1a3a;
+    border-radius: 8px;
+}
+
+/* Immagini */
+.image-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.image-container img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+/* Link esterno */
+.external-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #008CBA;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.external-link:hover {
+    background-color: #005f7f;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a4a;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
