@@ -1,0 +1,142 @@
+/* Stili generali */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a2a;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Menu */
+header {
+    background-color: #1a1a4a;
+    padding: 15px 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-size: 22px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    color: #ffffff;
+}
+
+/* Sezioni */
+section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #1a1a3a;
+    border-radius: 8px;
+}
+
+/* Mondi */
+.worlds-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.world img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+/* Boss */
+.boss-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.boss img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+/* Immagini */
+.image-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.image-container img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a4a;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.gameplay-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.gameplay-container img {
+    width: 45%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+/* Modal - Visualizzazione grande */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Rimuovere i puntini dalla lista */
+ul {
+    list-style: none;
+    padding-left: 0; /* Rimuove l'indentazione */
+}

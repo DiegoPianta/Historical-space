@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Space - Il Gioco</title>
+    <link rel="stylesheet" href="historicalspace.css"> <!-- CSS separato -->
+    <link rel="icon" href="immagini/icona.png">
+    <script defer src="script2.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gdevelop.html">GDevelop</a></li>
+                <li><a href="historicalspace.html">Historical Space</a></li>
+                <li><a href="skills.html">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h1>🔹 Historical Space</h1>
+        <p>Guida una navicella tra ondate di meteoriti e affronta boss epici per salvare un pianeta in difficoltà.</p>
+    </section>
+
+  <section class="gameplay">
+     <h2>🎮 Gameplay</h2>
+    <p>Nel gioco, controlli una <b>navicella spaziale</b> che deve distruggere meteoriti e affrontare il boss finale.</p>
+    
+    <h3>🎮 Controlli di base</h3>
+    <ul>
+        <li>🕹️ <b>Movimento</b> → Usa i tasti <strong>W A S D</strong> o le <strong>frecce direzionali</strong>.</li>
+        <li>🎯 <b>Sparo</b> → Premi il tasto <strong>Spazio</strong> per sparare (tempo di ricarica presente).</li>
+    </ul>
+
+    <h3>⚡ Abilità Speciali</h3>
+    <p>Durante il gioco, puoi raccogliere <b>power-up</b> che si attivano temporaneamente:</p>
+    <ul>
+        <li>🛡️ <b>Scudo Anti Meteoriti</b> → Protegge dai colpi per un breve periodo.</li>
+        <li>⚡ <b>Ricarica Velocissima</b> → Riduce il tempo di ricarica dei colpi.</li>
+        <li>🔍 <b>Rimpicciolimento</b> → La navicella diventa più piccola e rapida.</li>
+        <li>🎯 <b>Colpo Guidato</b> → Disponibile solo contro il boss, infligge danni extra!</li>
+    </ul>
+    <div class="gameplay-container">
+        <img src="immagini/istruzioni1.png" alt="Gameplay - Movimento e sparo" onclick="openModal(this)">
+        <img src="immagini/istruzioni2.png" alt="Gameplay - Power-ups attivi" onclick="openModal(this)">
+    </div>
+</section>
+
+<!-- Modal per visualizzare le immagini in grande -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+
+    <section class="worlds">
+        <h2>🌍 Mondi di gioco</h2>
+        <p>Affronta due mondi unici con difficoltà e boss diversi!</p>
+        <div class="worlds-container">
+            <div class="world">
+                <h3>Tranoma</h3>
+                <p>Boss con 100 HP e abilità gestibili.</p>
+                <img src="immagini/Tranoma_.png" alt="Tranoma - Il primo mondo">
+            </div>
+            <div class="world">
+                <h3>Geolaria</h3>
+                <p>Boss con 300 HP, abilità devastanti e minion</p>
+                <img src="immagini/Geolaria_.png" alt="Geolaria - Il secondo mondo">
+            </div>
+        </div>
+    </section>
+
+    <section class="bosses">
+        <h2>🦾 Boss del gioco</h2>
+        <p>Affronta nemici potenti e strategici!</p>
+        <div class="boss-container">
+            <div class="boss">
+                <h3>Aereo Spaziale:</h3>
+                <p>Abilità: missili, carica, recupero punti salute.</p>
+                <img src="immagini/BossTranoma_.png" alt="Boss di Tranoma">
+            </div>
+            <div class="boss">
+                <h3>Mostro Gigante</h3>
+                <p>abilità: missili, megacolpi, evocazione minion</p>
+                <img src="immagini/BossGeolaria_.png" alt="Boss di Geolaria">
+            </div>
+        </div>
+    </section>
+
+    <section class="graphics">
+        <h2>🎨 Grafica e Design</h2>
+        <p>Pixel art con colori predominanti <strong>nero, viola e blu</strong>.</p>
+        <div class="image-container">
+            <img src="immagini/carosello2.png" alt="Grafica di Historical Space">
+        </div>
+    </section>
+
+    <section class="cheats">
+        <h2>🔥 Curiosità e Cheat</h2>
+        <p>Scopri alcuni trucchi segreti!</p>
+        <ul>
+            <li>🛑 <b>Tasto 3</b> → Evoca direttamente il boss.</li>
+            <li>💀 <b>Tasto 0</b> → Toglie 100 HP al boss istantaneamente!</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Historical Space | Creato da Diego Piantalunga</p>
+    </footer>
+</body>
+</html>
