@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Competenze nel Game Development</title>
+    <link rel="stylesheet" href="skills.css"> <!-- CSS separato -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gdevelop.html">GDevelop</a></li>
+                <li><a href="historicalspace.html">Historical Space</a></li>
+                <li><a href="skills.html">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h1>🔹 Skills 🔹</h1>
+        <h5>Le competenze fondamentali che ho appreso programmando il mio videogioco.</h5>
+    </section>
+
+    <section class="skills-container">
+        <div class="skill">
+            <h2>📌 Capacità organizzative</h2>
+            <p>Gestire tutti gli <b>assets</b>, il codice, le schermate e gli elementi di gioco in modo strutturato e ordinato.</p>
+            <img src="immagini/organizzazione.png" alt="Skill - Capacità organizzative" onclick="openModal(this)">
+        </div>
+
+        <div class="skill">
+            <h2>🧠 Problem Solving</h2>
+            <p>Affrontare e risolvere problemi tecnici, logici e di game design con soluzioni efficaci.</p>
+            <img src="immagini/problem solving .png" alt="Skill - Problem Solving" onclick="openModal(this)">
+        </div>
+
+        <div class="skill">
+            <h2>🎨 Creatività</h2>
+            <p>Adattare le diverse texture e assets talvolta ridisegnadoli; ed inoltre pensare e creare le diverse skill dei boss e abilità del giocatore.</p>
+            <img src="immagini/creatività (2).png" alt="Skill - Creatività" onclick="openModal(this)">
+        </div>
+
+        <div class="skill">
+            <h2>📚 Capacità di imparare autonomamente</h2>
+            
+            <p>Apprendere nuove tecniche, tool e linguaggi di programmazione per migliorare il gioco, e sopratutto comprendere a pieno le diverse componenti dell'ambiente di sviluppo.</p>
+            <img src="immagini/Capacità di imparare autonomamente.png" alt="Skill - Capacità di imparare autonomamente" onclick="openModal(this)">
+        </div>
+    </section>
+
+    <!-- Modal per visualizzare immagini grandi -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 - Skills | Creato da Diego Piantalunga</p>
+    </footer>
+</body>
+</html>
